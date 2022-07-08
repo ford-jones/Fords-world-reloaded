@@ -18,9 +18,10 @@ body {
   margin: -10px 0px 0px 0px;
 }
 #page-container {
-  position:
+  position: relative;
   flex-direction: column;
-  margin: 10px 10px 10px 10px
+  margin: 10px 10px 10px 10px;
+  display: flex;
 }
 /*--------------------------TITLES----------------------------*/
 .title-1 {
@@ -31,6 +32,17 @@ body {
   margin: auto;
   text-align: center;
   padding: 10px 10px 10px 10px;
+}
+.home-title {
+  font-family: morpheus;
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+  top: 100px;
+  text-align: center;
+  letter-spacing: 20px;
+  /* text-decoration: underline; */
+  -webkit-text-stroke-width: light;
 }
 /*----------------------------TEXT----------------------------------*/
 .link {
