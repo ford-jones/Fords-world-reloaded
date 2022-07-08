@@ -1,0 +1,9 @@
+body {
+  background-color: beige;
+  background-size: cover;
+  max-width: 100%;
+}
+@font-face {
+  src: url(fonts/morpheus/MORPHEUS.TTF) format('truetype');
+  font-family: morpheus; 
+} 
