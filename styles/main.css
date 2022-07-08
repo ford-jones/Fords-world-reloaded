@@ -7,8 +7,8 @@ body {
   src: url(fonts/morpheus/MORPHEUS.TTF) format('truetype');
   font-family: morpheus; 
 } 
-/*--------------------------TITLES----------------------------*/
-.title-container {
+/*--------------------------CONTAINERS----------------------------*/
+#title-container {
   background-color: whitesmoke;
   box-shadow: 0 5px 5px 0;
   position: fixed;
@@ -17,7 +17,13 @@ body {
   width: 100%;
   margin: -10px 0px 0px 0px;
 }
-#title {
+#page-container {
+  position:
+  flex-direction: column;
+  margin: 10px 10px 10px 10px
+}
+/*--------------------------TITLES----------------------------*/
+.title-1 {
   font-family: morpheus;
   display: flex;
   flex-direction: row;
@@ -25,4 +31,12 @@ body {
   margin: auto;
   text-align: center;
   padding: 10px 10px 10px 10px;
+}
+
+/*-------------------------IMAGES-------------------------*/
+.earth {
+  position: relative;
+  flex-direction: column;
+  align-self: center;
+  left: 33%;
 }
