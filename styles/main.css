@@ -48,10 +48,6 @@ body {
 .link {
   color: black;
   text-decoration: none;
-  letter-spacing: 15px;
-  font-family: morpheus;
-  display: flex;
-  position: relative;
 }
 /*---------------------------BUTTONS--------------------------------*/
 .welcome-screen-button {
@@ -63,6 +59,71 @@ body {
   padding: 10px 10px 10px 10px;
   width: 15%;
   text-align: center;
+  
+}
+.learning-plan-box {
+  background-color: whitesmoke;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  letter-spacing: 15px;
+  font-family: morpheus;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  /* margin: auto; */
+}
+.research-box {
+  background-color: whitesmoke;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  letter-spacing: 15px;
+  font-family: morpheus;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  /* margin: auto; */
+}
+.emotional-intellegence-box {
+  background-color: whitesmoke;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  letter-spacing: 15px;
+  font-family: morpheus;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  /* margin: auto; */
+}
+.javascript-discussion-box {
+  background-color: whitesmoke;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  letter-spacing: 15px;
+  font-family: morpheus;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  /* margin: auto; */
 }
 /*-------------------------IMAGES-------------------------*/
 .earth {
