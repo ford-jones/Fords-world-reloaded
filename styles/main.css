@@ -8,7 +8,7 @@ body {
   font-family: morpheus; 
 } 
 /*--------------------------CONTAINERS----------------------------*/
-#title-container {
+#banner {
   background-color: whitesmoke;
   box-shadow: 0 5px 5px 0;
   position: fixed;
@@ -24,7 +24,7 @@ body {
   display: flex;
 }
 /*--------------------------TITLES----------------------------*/
-.title-1 {
+.banner-text {
   font-family: morpheus;
   display: flex;
   flex-direction: row;
@@ -33,7 +33,7 @@ body {
   text-align: center;
   padding: 10px 10px 10px 10px;
 }
-.home-title {
+.page-header {
   font-family: morpheus;
   position: relative;
   /* display: flex; */
