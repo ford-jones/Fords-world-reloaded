@@ -62,6 +62,7 @@ body {
   text-align: center;
   font-family: morpheus;
   letter-spacing: 10px;
+  top: 200px;
 }
 .learning-plan-box {
   background-color: whitesmoke;
@@ -137,7 +138,8 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
-  top: 40px;
+  top: 100px;
+  width: 500px;
 }
 /*----------------------------MEDIA QUERIES---------------------------*/
 @media screen and (max-width: 320px) {
