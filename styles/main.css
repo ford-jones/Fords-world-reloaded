@@ -188,19 +188,21 @@ font-size: 17px;
 /*----------------------------MEDIA QUERIES---------------------------*/
 @media screen and (max-width: 320px) {
 body {
-  max-width: 100%;
-  position: relative;
+  background-color: lavender;
   } 
 }
-@media screen and (max-width: 720px) {
-body {
-  max-width: 100%;
-  position: relative;
+@media screen and (min-width: 720px) {
+  body {
+    background-color:lavender ;
   }
 }
-@media screen and (max-width: 1200px) {
-body {
-  max-width: 100%;
-  position: relative;
+@media screen and (max-width: 720px) {
+  body {
+    background-color: lavender;
   } 
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: beige;
+  }
 }
