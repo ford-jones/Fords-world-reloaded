@@ -54,13 +54,14 @@ body {
 .welcome-screen-button {
   background-color: whitesmoke;
   position: relative;
-  display: flex;
+  display: inline-block;
   border: 2px solid black;
   margin: auto;
-  padding: 10px 10px 10px 10px;
-  width: 15%;
+  padding: 20px 20px 20px 20px;
+  width: 300px;
   text-align: center;
-  
+  font-family: morpheus;
+  letter-spacing: 10px;
 }
 .learning-plan-box {
   background-color: whitesmoke;
@@ -75,7 +76,9 @@ body {
   position: relative;
   text-align: center;
   margin: auto;
+  margin-bottom: 10px;
   top: 200px;
+  box-shadow: 0px 0px 2px 2px grey inset;
 }
 .research-box {
   background-color: whitesmoke;
@@ -90,7 +93,9 @@ body {
   position: relative;
   text-align: center;
   margin: auto;
+  margin-bottom: 10px;
   top: 200px;
+  box-shadow: 0px 0px 2px 2px grey inset;
 }
 .emotional-intellegence-box {
   background-color: whitesmoke;
@@ -105,7 +110,9 @@ body {
   position: relative;
   text-align: center;
   margin: auto;
+  margin-bottom: 10px;
   top: 200px;
+  box-shadow: 0px 0px 2px 2px grey inset;
 }
 .javascript-discussion-box {
   background-color: whitesmoke;
@@ -120,14 +127,17 @@ body {
   position: relative;
   text-align: center;
   margin: auto;
+  margin-bottom: 10px;
   top: 200px;
+  box-shadow: 0px 0px 2px 2px grey inset;
 }
 /*-------------------------IMAGES-------------------------*/
 .earth {
   position: relative;
+  display: flex;
   flex-direction: column;
   align-self: center;
-  left: 33%;
+  top: 40px;
 }
 /*----------------------------MEDIA QUERIES---------------------------*/
 @media screen and (max-width: 320px) {
