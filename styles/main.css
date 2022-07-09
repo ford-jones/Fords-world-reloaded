@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   margin: 10px 10px 10px 10px;
   display: flex;
-  top: 150px;
+  top: 100px;
 }
 /*--------------------------TITLES----------------------------*/
 .banner-text {
@@ -58,7 +58,7 @@ body {
   text-align: center;
   font-family: morpheus;
   letter-spacing: 10px;
-  top: 200px;
+  top: 50px;
 }
 .learning-plan-box {
   background-color: whitesmoke;
@@ -130,7 +130,6 @@ body {
   display: flex;
   flex-direction: column;
   align-self: center;
-  top: 100px;
   width: 500px;
 }
 /*----------------------------MEDIA QUERIES---------------------------*/
