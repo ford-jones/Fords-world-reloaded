@@ -16,6 +16,7 @@ body {
   text-align: center;
   width: 100%;
   margin: -10px 0px 0px 0px;
+  z-index: 100;
 }
 #page-container {
   position: relative;
@@ -27,6 +28,40 @@ body {
   width: 50%;
   background-color: whitesmoke;
   border-radius: 50px;
+  z-index: 0;
+}
+#welcome-screen-page-container {
+  position: relative;
+  flex-direction: column;
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  top: 100px;
+  width: 50%;
+  background-color: beige;
+  border-radius: 50px;
+  z-index: 0;
+}
+#home-page-container {
+  position: relative;
+  flex-direction: column;
+  margin: auto;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  top: 100px;
+  width: 50%;
+  background-color: beige;
+  border-radius: 50px;
+  z-index: 0;
+}
+#home-button-container {
+  position: fixed;
+  flex-direction: column;
+  margin: auto;
+  display: flex;
+  top: 100px;
+  width: 50%;
+  background-color: beige;
 }
 /*--------------------------TITLES----------------------------*/
 .banner-text {
@@ -138,6 +173,20 @@ font-size: 17px;
   margin-bottom: 10px;
   box-shadow: 0px 0px 2px 2px grey inset;
 }
+.return-home {
+  background-color: whitesmoke;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 10%;
+  padding: 2px 2px 2px 2px;
+  letter-spacing: 15px;
+  font-family: morpheus;
+  display: flex;
+  position: fixed;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 2px 2px grey inset;
+}
 /*-------------------------IMAGES-------------------------*/
 .earth {
   position: relative;
@@ -145,6 +194,12 @@ font-size: 17px;
   flex-direction: column;
   align-self: center;
   width: 500px;
+}
+.toon-world {
+  width: 22%;
+  top: 130px;
+  margin: auto;
+  position: fixed;
 }
 /*----------------------------MEDIA QUERIES---------------------------*/
 @media screen and (max-width: 320px) {
