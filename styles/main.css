@@ -178,6 +178,13 @@ font-size: 17px;
   margin: auto;
   position: fixed;
 }
+.margin-pic {
+  width: 25%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
 /*----------------------------MEDIA QUERIES---------------------------*/
 @media screen and (max-width: 320px) {
 body {
