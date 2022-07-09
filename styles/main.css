@@ -196,6 +196,11 @@ body {
   .response {
     font-size: 10px;
     }
+  .toon-world {
+    position: relative;
+    display: flex;
+    top: 80px;
+    }
 }
 @media screen and (min-width: 720px) {
   body {
@@ -207,16 +212,26 @@ body {
   .response {
     font-size: 10px;
     }
+  .toon-world {
+    position: relative;
+    display: flex;
+    top: 80px;
+    }
 }
 @media screen and (max-width: 720px) {
   body {
-    background-color: lavender;
-  } 
+    background-color:lavender ;
+  }
   .question {
     font-size: 14px;
     }
   .response {
     font-size: 10px;
+    }
+  .toon-world {
+    position: relative;
+    display: flex;
+    top: 80px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -229,4 +244,7 @@ body {
   .response {
     font-size: 17px;
     }
+  .toon-world {
+    position: fixed;
+  }
 }
