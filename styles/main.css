@@ -190,19 +190,43 @@ font-size: 17px;
 body {
   background-color: lavender;
   } 
+  .question {
+    font-size: 14px;
+    }
+  .response {
+    font-size: 10px;
+    }
 }
 @media screen and (min-width: 720px) {
   body {
     background-color:lavender ;
   }
+  .question {
+    font-size: 14px;
+    }
+  .response {
+    font-size: 10px;
+    }
 }
 @media screen and (max-width: 720px) {
   body {
     background-color: lavender;
   } 
+  .question {
+    font-size: 14px;
+    }
+  .response {
+    font-size: 10px;
+    }
 }
 @media screen and (min-width: 1200px) {
   body {
     background-color: beige;
   }
+  .question {
+    font-size: 25px;
+    }
+  .response {
+    font-size: 17px;
+    }
 }
