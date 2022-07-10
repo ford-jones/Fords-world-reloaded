@@ -201,11 +201,23 @@ body {
     display: flex;
     top: 80px;
     }
-}
   .welcome-screen-button {
     background-color: whitesmoke;
     display: flex;
     width: 50%;
+    }
+  .learning-plan-box {
+    width: 200px;
+    }
+  .research-box {
+    width: 200px;
+    }
+  .emotional-intellegence-box {
+    width: 200px;
+    }
+  .javascript-discussion-box {
+    width: 200px;
+    }
 }
 @media screen and (min-width: 720px) {
   body {
@@ -227,6 +239,18 @@ body {
     display: flex;
     width: 50%;
     }
+  .learning-plan-box {
+    width: 200px;
+  }
+  .research-box {
+    width: 200px;
+  }
+  .emotional-intellegence-box {
+    width: 200px;
+  }
+  .javascript-discussion-box {
+    width: 200px;
+  }
 }
 @media screen and (max-width: 720px) {
   body {
@@ -248,6 +272,18 @@ body {
     display: inline-block;
     width: 50%;
     }
+  .learning-plan-box {
+    width: 200px;
+  }
+  .research-box {
+    width: 200px;
+  }
+  .emotional-intellegence-box {
+    width: 200px;
+  }
+  .javascript-discussion-box {
+    width: 200px;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -265,5 +301,17 @@ body {
   .welcome-screen-button {
     background-color: whitesmoke;
     display: inline-block;
+  }
+  .learning-plan-box {
+    width: 500px;
+  }
+  .research-box {
+    width: 500px;
+  }
+  .emotional-intellegence-box {
+    width: 500px;
+  }
+  .javascript-discussion-box {
+    width: 500px;
   }
 }
