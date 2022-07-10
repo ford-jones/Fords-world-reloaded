@@ -245,7 +245,7 @@ body {
     }
   .welcome-screen-button {
     background-color: whitesmoke;
-    display: flex;
+    display: inline-block;
     width: 50%;
     }
 }
@@ -264,5 +264,6 @@ body {
   }
   .welcome-screen-button {
     background-color: whitesmoke;
+    display: inline-block;
   }
 }
