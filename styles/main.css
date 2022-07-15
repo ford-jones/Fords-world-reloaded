@@ -250,6 +250,12 @@ body {
   .javascript-discussion-box {
     width: 250px;
     }
+    .neuro-box {
+      width: 250px;
+    }
+    .problem-solving-box {
+      width: 250px;
+    }
 }
 @media screen and (min-width: 720px) {
   body {
@@ -283,6 +289,12 @@ body {
   .javascript-discussion-box {
     width: 250px;
   }
+  .neuro-box {
+    width: 250px;
+  }
+  .problem-solving-box {
+    width: 250px;
+}
 }
 @media screen and (max-width: 720px) {
   body {
@@ -316,6 +328,12 @@ body {
   .javascript-discussion-box {
     width: 250px;
   }
+  .neuro-box {
+    width: 250px;
+  }
+  .problem-solving-box {
+    width: 250px;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -344,6 +362,12 @@ body {
     width: 500px;
   }
   .javascript-discussion-box {
+    width: 500px;
+  }
+  .neuro-box {
+    width: 500px;
+  }
+  .problem-solving-box {
     width: 500px;
   }
 }
