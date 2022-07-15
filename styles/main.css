@@ -180,6 +180,22 @@ font-size: 17px;
   margin-bottom: 10px;
   box-shadow: 0px 0px 2px 2px grey inset;
 }
+.problem-solving-box {
+  background-color: whitesmoke;
+  flex-direction: row;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  letter-spacing: 15px;
+  font-family: morpheus;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 2px 2px grey inset;
+}
 /*-------------------------IMAGES-------------------------*/
 .earth {
   position: relative;
