@@ -86,6 +86,14 @@ color: black;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px;
 }
+.polkadotLink {
+  color: blue;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: center;
+  margin: 15px;
+}
 /*---------------------------BUTTONS--------------------------------*/
 .welcome-screen-button {
   background-color: whitesmoke;
@@ -230,7 +238,7 @@ font-size: 17px;
   display: flex;
   flex-direction: row;
   width: 20%;
-  top: -457px;
+  top: -550px;
   margin: 2%;
   float: right;
 }
