@@ -217,6 +217,23 @@ font-size: 17px;
   display: flex;
   flex-direction: column;
 }
+.smileyOne {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  top: 200px;
+  margin: 2%;
+}
+.smileyTwo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  top: -457px;
+  margin: 2%;
+  float: right;
+}
 /*----------------------------MEDIA QUERIES---------------------------*/
 @media screen and (max-width: 320px) {
 body {
