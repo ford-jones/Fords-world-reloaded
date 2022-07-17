@@ -86,6 +86,14 @@ color: black;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px;
 }
+.polkadotLink {
+  color: blue;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: center;
+  margin: 15px;
+}
 /*---------------------------BUTTONS--------------------------------*/
 .welcome-screen-button {
   background-color: whitesmoke;
@@ -216,6 +224,23 @@ font-size: 17px;
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+.smileyOne {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  top: 200px;
+  margin: 2%;
+}
+.smileyTwo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  top: -550px;
+  margin: 2%;
+  float: right;
 }
 /*----------------------------MEDIA QUERIES---------------------------*/
 @media screen and (max-width: 320px) {
