@@ -297,6 +297,9 @@ body {
     .problem-solving-box {
       width: 250px;
     }
+    .foundations-reflections-box {
+      width: 250px
+    }
 }
 @media screen and (min-width: 720px) {
   body {
@@ -335,6 +338,9 @@ body {
   }
   .problem-solving-box {
     width: 250px;
+}
+.foundations-reflections-box {
+  width: 250px
 }
 }
 @media screen and (max-width: 720px) {
@@ -375,6 +381,9 @@ body {
   .problem-solving-box {
     width: 250px;
   }
+  .foundations-reflections-box {
+    width: 250px
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -409,6 +418,9 @@ body {
     width: 500px;
   }
   .problem-solving-box {
+    width: 500px;
+  }
+  .foundations-reflections-box {
     width: 500px;
   }
 }
