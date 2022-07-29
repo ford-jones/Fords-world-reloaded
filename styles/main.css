@@ -259,48 +259,7 @@ font-size: 17px;
   float: right;
 }
 /*----------------------------MEDIA QUERIES---------------------------*/
-@media screen and (max-width: 320px) {
-body {
-  background-color: lavender;
-  } 
-  .question {
-    font-size: 14px;
-    }
-  .response {
-    font-size: 10px;
-    }
-  .toon-world {
-    position: relative;
-    display: flex;
-    top: 80px;
-    }
-  .welcome-screen-button {
-    background-color: whitesmoke;
-    display: flex;
-    width: 50%;
-    }
-  .learning-plan-box {
-    width: 250px;
-    }
-  .research-box {
-    width: 250px;
-    }
-  .emotional-intellegence-box {
-    width: 250px;
-    }
-  .javascript-discussion-box {
-    width: 250px;
-    }
-    .neuro-box {
-      width: 250px;
-    }
-    .problem-solving-box {
-      width: 250px;
-    }
-    .foundations-reflections-box {
-      width: 250px
-    }
-}
+
 @media screen and (min-width: 720px) {
   body {
     background-color:lavender ;
@@ -345,7 +304,7 @@ body {
 }
 @media screen and (max-width: 720px) {
   body {
-    background-color:lavender ;
+    background-color: pink;
   }
   .question {
     font-size: 14px;
@@ -424,3 +383,45 @@ body {
     width: 500px;
   }
 }
+@media screen and (max-width: 320px) {
+  body {
+    background-color: lavender;
+    } 
+    .question {
+      font-size: 14px;
+      }
+    .response {
+      font-size: 10px;
+      }
+    .toon-world {
+      position: relative;
+      display: flex;
+      top: 80px;
+      }
+    .welcome-screen-button {
+      background-color: whitesmoke;
+      display: flex;
+      width: 50%;
+      }
+    .learning-plan-box {
+      width: 250px;
+      }
+    .research-box {
+      width: 250px;
+      }
+    .emotional-intellegence-box {
+      width: 250px;
+      }
+    .javascript-discussion-box {
+      width: 250px;
+      }
+      .neuro-box {
+        width: 250px;
+      }
+      .problem-solving-box {
+        width: 250px;
+      }
+      .foundations-reflections-box {
+        width: 250px
+      }
+  }
