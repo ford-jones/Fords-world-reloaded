@@ -258,6 +258,12 @@ font-size: 17px;
   margin: 2%;
   float: right;
 }
+
+.cards {
+  margin-top: 130px;
+  position: relative;
+  text-align: center;
+}
 /*----------------------------MEDIA QUERIES---------------------------*/
 
 @media screen and (min-width: 720px) {
